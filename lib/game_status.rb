@@ -38,9 +38,9 @@ def won?(board)
     if position_one == "X" && position_two == "X" && position_three == "X" || position_one == "O" && position_two == "O" && position_three == "O"
       return win_combination
     end  
+  end
   else
       return false
-  end
 end
 
 #position taker helper method?
